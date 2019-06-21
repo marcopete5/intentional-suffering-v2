@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Iowan;
+    src: url('../assets/fonts/IowanOldStBTRoman.ttf')
+}
+
+#spinLabel {
+    font-family: "Iowan", sans-serif;
+    font-size: 18px;
+    width: 295px;
+    height: 73px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid #707070;
+}
+
+#spinCont {
+    text-align: center;
+    background-image: url(/static/media/shoes.e798b044.png);
+    height: 100vh;
+    background-position: center 180%;
+    background-repeat: no-repeat;
+}
+
+#green {
+    position: relative;
+    bottom: 238px;
+    left: 4px;
+}
+
+#wheel {
+    position: relative;
+    z-index: 1;
+    transition: transform 3s ease-out
+}
+
+#spinBtn {
+    position: absolute;
+    top: 265px;
+    right: 38.6%;
+    z-index: 1;
+}
+

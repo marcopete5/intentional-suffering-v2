@@ -1,0 +1,73 @@
+@media (max-width: 600px){
+    .nav-container {
+        background-color: black;
+        height: 60px;
+        display: grid;
+        grid-template-columns: 60px 1fr 60px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    #logo-background {
+        background-color: white;
+        height: 24px;
+        width: 30px;
+        position: absolute;
+        top: 19px;
+        left: 19px;
+    }
+    #drop-background {
+        background-color: white;
+        height: 17px;
+        width: 25px;
+        position: absolute;
+        right: 13px;
+        top: 20px;
+    }
+    
+    #logo {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        top: 7px;
+        left: 10px;
+    }
+    
+    #drop {
+        width: 54px;
+        position: absolute;
+        right: -1px;
+        top: 0px;
+    }
+    
+    .nav-container > span {
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        position: relative;
+        top: 18px;
+        color: white;
+        text-align: center;
+    }
+
+    #nav-items {
+        grid-column: 1/-1;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        position: relative;
+        list-style-type: none;
+        border-top: 2px solid grey;
+        z-index: 10;
+    }
+
+    #nav-items > li {
+        padding: 7px;
+    }
+
+    #nav-items a {
+        color: white;
+        text-decoration: none;
+    }
+}
